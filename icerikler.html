@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Kodsal'da yeni başlayanlar için Visual Studio Code, GitHub, CodePen, IntelliJ IDEA ve Postman araçlarını keşfet.">
+	<title>İçerikler | Kodsal</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<a class="site-logo" href="index.html" aria-label="Kodsal ana sayfa">Kodsal</a>
+		<nav class="site-nav" aria-label="Ana gezinme">
+			<ul>
+				<li><a href="index.html">Ana Sayfa</a></li>
+				<li><a href="icerikler.html" aria-current="page">İçerikler</a></li>
+				<li><a href="hakkinda.html">Hakkında</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="page-intro" aria-labelledby="page-title">
+			<p class="eyebrow">Araç kütüphanesi</p>
+			<h1 id="page-title">Yazılım araçlarını keşfet</h1>
+			<p>Programlama çalışmalarında sık kullanılan araçları ve hangi amaçlarla tercih edildiklerini incele.</p>
+		</section>
+
+		<section class="tools-section" aria-label="Yazılım aracı içerikleri">
+			<div class="search-panel">
+				<label for="tool-search">Araç başlığına göre ara</label>
+				<div class="search-controls">
+					<input
+						type="search"
+						id="tool-search"
+						name="tool-search"
+						placeholder="Örnek: GitHub"
+						autocomplete="off"
+						aria-controls="tool-list"
+					>
+					<button type="button" id="clear-search">Temizle</button>
+				</div>
+				<p id="result-count" role="status" aria-live="polite">5 araç gösteriliyor.</p>
+				<p id="no-results" role="status" hidden>Aramanızla eşleşen araç bulunamadı.</p>
+			</div>
+
+			<div class="tool-grid" id="tool-list">
+				<article class="tool-card" id="visual-studio-code">
+					<h2>Visual Studio Code</h2>
+					<p>Farklı programlama dillerinde kod yazmayı ve projeleri düzenlemeyi sağlayan, eklentilerle genişletilebilen bir kod editörüdür.</p>
+					<p><strong>Kullanım alanı:</strong> Kod yazma, dosya düzenleme ve geliştirme eklentilerinden yararlanma.</p>
+				</article>
+
+				<article class="tool-card" id="github">
+					<h2>GitHub</h2>
+					<p>Git kullanarak kod değişikliklerini takip etmeye ve yazılım projelerini çevrim içi depolayıp paylaşmaya yarayan bir platformdur.</p>
+					<p><strong>Kullanım alanı:</strong> Sürüm kontrolü, proje paylaşımı ve ekip çalışması.</p>
+				</article>
+
+				<article class="tool-card" id="codepen">
+					<h2>CodePen</h2>
+					<p>HTML, CSS ve JavaScript kodlarını tarayıcıda yazıp sonuçlarını anında görebileceğin çevrim içi bir geliştirme ortamıdır.</p>
+					<p><strong>Kullanım alanı:</strong> Web arayüzü denemeleri, küçük örnekler hazırlama ve paylaşma.</p>
+				</article>
+
+				<article class="tool-card" id="intellij-idea">
+					<h2>IntelliJ IDEA</h2>
+					<p>Java ve ilişkili teknolojilerle uygulama geliştirmek için kod tamamlama, hata ayıklama ve proje yönetimi araçları sunan bir IDE'dir.</p>
+					<p><strong>Kullanım alanı:</strong> Java projeleri geliştirme, çalıştırma ve hata ayıklama.</p>
+				</article>
+
+				<article class="tool-card" id="postman">
+					<h2>Postman</h2>
+					<p>API istekleri oluşturup yanıtlarını incelemeye ve servis uç noktalarını denemeye yardımcı olan bir araçtır.</p>
+					<p><strong>Kullanım alanı:</strong> API'leri test etme ve istek-yanıt verilerini inceleme.</p>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>&copy; 2026 Kodsal</p>
+	</footer>
+</body>
+</html>
