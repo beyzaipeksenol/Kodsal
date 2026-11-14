@@ -41,4 +41,4 @@ Proje HTML5, CSS ve JavaScript ile hazırlanmıştır. Harici paket veya derleme
 
 ## GitHub Repository
 
-Repository bağlantısı: **[Henüz eklenmedi]**
+Repository bağlantısı: [Kodsal GitHub Deposu](https://github.com/beyzaipeksenol/Kodsal)
